@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+
+<!--responsive navbar-->
+<nav class="bg-green-100 items-center justify-between p-3 flex shadow-xl sticky top-0 z-10">
+    <h1 class="text-2xl">GREENDEN</h1>
+
+    <svg class="h-8 w-8 text-black items-center md:hidden"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+
+    <ul class=" text-gray-600 sm:flex gap-5 hidden md:flex">
+        <li>
+            <a class="hover:underline hover:text-black" href="index.html">Home</a>
+        </li>
+
+        <li>
+            <a class="hover:underline hover:text-black" href="product.html">Products</a>
+        </li>
+
+        <li>
+            <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<!--products-->
+
+<section class="p-5 text-center">
+    <h1 class="text-3xl font-bold mt-5">Best Seller</h1>
+    <input type="text" placeholder="search for a product..." class="border border-black p-2 m-3" style="width: 60%;"><br>
+    
+    <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+        <div>
+            <img src="./images/product1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="flower">
+            <h1>Chrysanthemum</h1>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/product2.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="flower">
+            <h1>Chrysanthemum many color</h1>
+            <p>$15</p>
+        </div>
+        <div>
+            <img src="./images/flr3.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="flower">
+            <h1>Monstera deliciosa</h1>
+            <p>$25</p>
+        </div>
+        <div>
+            <img src="./images/product4.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="flower">
+            <h1>Creeping Fig</h1>
+            <p>$25</p>
+        </div>
+        <div>
+            <img src="./images/product5.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="flower">
+            <h1>Mini rose</h1>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/product6.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="flower">
+            <h1>Purple Shamrock</h1>
+            <p>$15</p>
+        </div>
+        <div>
+            <img src="./images/product7.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="flower">
+            <h1>False Shamrock</h1>
+            <p>$25</p>
+        </div>
+        <div>
+            <img src="./images/product8.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="flower">
+            <h1>Gerbera Daisy</h1>
+            <p>$25</p>
+        </div>
+        
+    </div>
+</section>
+
+<!--footer-->
+<section class="bg-green-100 p-10 flex flex-col gap-5 text-left mt-10">
+    <h1 class="text-4xl font-bold">Greenden</h1>
+    <p>Since 1950s ! We Offer You A Wide Range of Artificial And Natural Flowers</p>
+    <p>@ 2021 Greenday.com</p>
+</section>
